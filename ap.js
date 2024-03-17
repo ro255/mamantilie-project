@@ -1,4 +1,4 @@
-let menuBtn = document.getElementById('manu');
+let menuBtn = document.getElementById('menu');
 let closeBtn = document.getElementById('nav-close');
 let navbar = document.getElementById('navbar');
 

@@ -52,12 +52,14 @@
         }
         
         .navbar {
+           
             position: absolute;
-            /*background-color: whitesmoke;*/
+            background-color: whitesmoke;
             width: 100%;
             height: 100%;
             padding: 4rem;
             display: none;
+            /* display: block; */
             transform: translateX(-150);
             transition: var(--mainTransition);
         }
@@ -73,6 +75,11 @@
             text-transform: uppercase;
             color: var(--primaryColor);
             font-weight: bold;
+            list-style-type: none;
+        }
+        .nav-items{
+            margin-left: 4rem;
+
         }
         
         .nav-close {
@@ -80,7 +87,7 @@
         }
         
         .header {
-            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/p8.jpg');
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/tr1.jpg');
             background-position: center;
             background-size: cover;
             background-attachment: fixed;
